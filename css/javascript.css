@@ -109,5 +109,9 @@ li a:hover {
     display: block;
 } */
 .jumbotron{
-  width: 500px;
+  width: 552px;
+}
+body{
+  /* margin: 10px; */
+  
 }
