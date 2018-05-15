@@ -1,15 +1,54 @@
-
+.logo{
+  width:20%;
+  float: left;
+}
+nav li {
+  display: inline-block;
+  margin-left:50px;
+  font-size: 30px;
+}
+nav li a{
+  color: aqua;
+  text-transform: uppercase;
+}
+ul li {
+  list-style: none;
+}
 .jumbotron{
   background: #000066;
   color:aqua;
   font-size: 20px;
   text-align: center;
+  margin-top: 10px;
 }
 .jumbotron h1{
-  color: white;
+  color: black;
   font-size: 60px;
   font-family: 'Bree Serif';
 }
-ul li {
-  list-style: none;
+ h2{
+  font-family: 'Permanent Marker';
+  font-size: 40px;
+}
+
+.navbar{
+  background:#234666;
+}
+footer{
+  text-align:center;
+  background:#234666;
+  font-size: 20px;
+  padding-top:25px;
+}
+footer p{
+  color:aqua;
+}
+ol li a{
+  font-size: 30px;
+  color: #339CFF;
+}
+ol  p{
+  font-size:20px;
+  line-height: 45px;
+
 }
