@@ -19,10 +19,10 @@ background-color: #0d0d0d;
 
 .logo1 img{
   background-color: #9ca09b;
-  padding: 10px;
   color: #9ca09b;
-  padding-left: 30px;
-  padding-right:
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 
 }
 li {
@@ -160,7 +160,7 @@ body{
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display:inline-grid;
 }
 .dropbtn button{
   font-size: 24px;
@@ -175,6 +175,6 @@ body{
   color:white;
 }
 .social img{
-  width:20px;
-  height:20px;
+  width:30px;
+  height:30px;
 }
