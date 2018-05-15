@@ -1,0 +1,15 @@
+
+.jumbotron{
+  background: #000066;
+  color:aqua;
+  font-size: 20px;
+  text-align: center;
+}
+.jumbotron h1{
+  color: white;
+  font-size: 60px;
+  font-family: 'Bree Serif';
+}
+ul li {
+  list-style: none;
+}
