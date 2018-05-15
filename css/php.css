@@ -45,6 +45,28 @@ nav{
   padding: 0.6%;
   color: #EEF7FD;
 }
-.mymenu{
-  float: right;
+.lang{
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-family: 'Enriqueta';
+}
+.lang:hover{
+  background-color: none;
+  border-radius: 3px;
+}
+.about{
+  text-align: center;
+  margin-top: -14%;
+  width:50px;
+  padding: 5%;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-family: 'Enriqueta';
+  cursor: pointer;
+}
+.about:hover{
+
+}
+ul{
+  background-color: transparent;
 }
