@@ -11,7 +11,7 @@ nav li a{
   color: aqua;
   text-transform: uppercase;
 }
-ul li {
+ul {
   list-style: none;
 }
 .jumbotron{
