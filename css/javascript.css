@@ -17,8 +17,12 @@ background-color: #0d0d0d;
 }
 
 
-.logo1{
-  padding-top: 0px;
+.logo1 img{
+  background-color: #9ca09b;
+  padding: 10px;
+  color: #9ca09b;
+  padding-left: 30px;
+  padding-right:
 
 }
 li {
@@ -48,23 +52,73 @@ li a {
 li a:hover {
     background-color: #111;
 }
-/* .navbar {
+
+
+.jumbotron{
+  width: 552px;
+}
+.footer img {
+  height: 300px;
+  width: 1351px;
+  -webkit-filter: grayscale(95%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(95%);
+}
+
+}
+.image1 img{
+  width: 200px;
+  height: 120px;
+}
+
+.image2 img{
+  width: 200px;
+  height: 120px;
+}
+
+
+.image3 img{
+  width: 200px;
+  height: 120px;
+}
+
+
+.image4 img{
+  width: 200px;
+  height: 120px;
+}
+
+
+.image5 img{
+  width: 200px;
+  height: 120px;
+}
+body{
+  background-color: #9ca09b;
+}
+.row1{
+  color:white;
+  padding-top: 50px;
+}
+
+
+.navbar {
     overflow: hidden;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
-    float: left;
-    font-size: 16px;
+    float: right;
+    font-size: 24px;
     color: white;
     text-align: center;
-    padding: 34px 36px;
+    padding: 32px 98px;
     text-decoration: none;
+    padding-right: 130px;
 }
 
 .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
 }
 
@@ -73,19 +127,19 @@ li a:hover {
     border: none;
     outline: none;
     color: white;
-    padding: 24px 26px;
+    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: grey;
+    background-color: black;
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    /* position: absolute; */
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -98,7 +152,7 @@ li a:hover {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 
 .dropdown-content a:hover {
@@ -107,11 +161,16 @@ li a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-} */
-.jumbotron{
-  width: 552px;
 }
-body{
-  /* margin: 10px; */
-  
+.dropbtn button{
+  font-size: 24px;
+}
+
+.page-footer{
+  background-color: #333;
+  padding-top: 10px;
+  color: white;
+}
+.footer-copyright{
+  color:white;
 }
