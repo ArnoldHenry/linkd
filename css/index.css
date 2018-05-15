@@ -1,5 +1,8 @@
 nav{
   padding: 0.2%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .icon-bar{
   background-color: #FFFFFF;
@@ -22,4 +25,167 @@ nav{
   height: 50px;
   border-radius: 30px;
   padding: 2%;
+}
+.dropdwn{
+  width:40px;
+  height: 40px;
+}
+.background{
+  background:url('../images/drop.jpg');
+  background-attachment: inherit !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  z-index: -10;
+  width: 100%;
+
+}
+.ct-btn-scroll{
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 9;
+  margin: auto;
+  border-radius: 50%;
+  padding-top: 210px;
+  width: 0px;
+}
+.newwell{
+  margin-top: 330px;
+  padding: 1%;
+}
+.intro{
+  background-color: #FFFFFF;
+  width: 100%;
+  font-family: 'Enriqueta';
+  font-size: 3em;
+  position: absolute;
+}
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.html{
+  display: table-cell;
+  width: 300px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 300px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: #000066;
+  box-shadow: 2px 3px 2px #aaaaaa;
+  border-radius: 5px;
+  transition: 2s;
+  height: 315px;
+  border: none;
+}
+.html:hover{
+  box-shadow: 0 25px 8px -6px #aaaaaa;
+  transition: 2s;
+  cursor: pointer;
+}
+.abouthtml{
+  font-family: 'Enriqueta';
+  font-size: 1.5em;
+  transition: 2s;
+}
+.abouthtml:hover{
+  color:rgba(212, 213, 189,0.9);
+  transition: 2s;
+}
+.css{
+  display: table-cell;
+  width: 300px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 300px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: #003300;
+  box-shadow: 2px 3px 2px #aaaaaa;
+  border-radius: 5px;
+  transition: 2s;
+  border: none;
+}
+.css:hover{
+  box-shadow: 0 25px 8px -6px #aaaaaa;
+  transition: 2s;
+  cursor: pointer;
+}
+.aboutcss{
+  font-family: 'Enriqueta';
+  font-size: 1.5em;
+  transition: 2s;
+}
+.aboutcss:hover{
+  color:rgba(212, 213, 189,0.9);
+  transition: 2s;
+}
+.js{
+  display: table-cell;
+  width: 300px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 300px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: #9ca09b;
+  box-shadow: 2px 3px 2px #aaaaaa;
+  border-radius: 5px;
+  transition: 2s;
+  height: 315px;
+  border: none;
+}
+.js:hover{
+  box-shadow: 0 25px 8px -6px #aaaaaa;
+  transition: 2s;
+  cursor: pointer;
+}
+.aboutjs{
+  font-family: 'Enriqueta';
+  font-size: 1.5em;
+  transition: 2s;
+}
+.aboutjs:hover{
+  color:rgba(212, 213, 189,0.9);
+  transition: 2s;
+}
+.php{
+  display: table-cell;
+  width: 300px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 300px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: #FF0000;
+  box-shadow: 2px 3px 2px #aaaaaa;
+  border-radius: 8px;
+  transition: 2s;
+  height: 315px;
+  border: none;
+}
+.php:hover{
+  box-shadow: 0 25px 8px -2px #aaaaaa;
+  transition: 2s;
+  cursor: pointer;
+}
+.aboutphp{
+  font-family: 'Enriqueta';
+  font-size: 1.5em;
+  transition: 2s;
+}
+.aboutphp:hover{
+  color:rgba(212, 213, 189,0.9);
+  transition: 2s;
+}
+.card-deck{
+    top-margin: 50px;
 }
