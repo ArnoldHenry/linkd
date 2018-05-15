@@ -15,3 +15,31 @@ h1{
 .jumbotron{
   text-decoration-color: #02620C
 }
+p {
+  color: #003300;
+}
+.well {
+  background-color: #cccccc;
+}
+.body {
+  background: url("images/ld.png")
+}
+html {
+position: relative;
+min-height: 100%;
+}
+body {
+/* Margin bottom by footer height */
+margin-bottom: 60px;
+}
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+/* Set the fixed height of the footer here */
+height: 60px;
+background-color: #f5f5f5;
+}
+.contact {
+  text-align: center;
+}
