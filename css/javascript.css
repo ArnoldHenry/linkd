@@ -108,3 +108,10 @@ li a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 } */
+.jumbotron{
+  width: 552px;
+}
+body{
+  /* margin: 10px; */
+  
+}
