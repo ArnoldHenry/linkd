@@ -1,0 +1,50 @@
+nav{
+  padding: 0.5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.icon-bar{
+  background-color: #FFFFFF;
+}
+.logo{
+  width:50px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 2%;
+}
+.foot{
+  background-color: #46AFF8;
+  padding-top: 3%;
+}
+.flex-center{
+  text-align: center;
+}
+.git_ic{
+  padding: 1.4%;
+  border-radius: 50%;
+  margin: 5%;
+  color:#FFFFFF;
+}
+.face_ic{
+  color:#FFFFFF;
+  padding: 1.4%;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+.tweet_ic{
+  color:#FFFFFF;
+  padding: 1.4%;
+  border-radius: 50%;
+
+}
+.Copyright{
+  vertical-align: text-bottom;
+  background-color: #46ACF5;
+  width: 100%;
+  padding: 0.6%;
+  color: #EEF7FD;
+}
+.mymenu{
+  float: right;
+}
