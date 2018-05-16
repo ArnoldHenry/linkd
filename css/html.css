@@ -12,6 +12,7 @@ nav li a{
   color: white;
   text-transform: uppercase;
 }
+
 ul {
   list-style: none;
 }
@@ -57,7 +58,7 @@ footer p{
 footer li{
   color:#66ffff;
 }
-ol li a{
+ol li {
   font-size: 30px;
   color: #339CFF;
 }
