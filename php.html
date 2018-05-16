@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>PHP</title>
-
-    <link rel="stylesheet" href="css/bootstrap3.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/php.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/php.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow|Italianno|Qwigley|Enriqueta|Quicksand|Vollkorn|Lusitana">
 
   </head>
   <body>
+
     <nav class="navbar" style="background-color:#46AFF8;">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -24,17 +24,17 @@
           <a href="index.html"> <img src="images/LD.png" class="logo" alt=""> </a>
         </div>
         <div class="collapse navbar-collapse" id="mymenu">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="dropdown-toggle lang" data-toggle="dropdown">Languages
-              <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li> <a href="html.html">HTML</a></li>
-                <li> <a href="css.html">CSS</a></li>
-                <li> <a href="Javascript.html">Javascript</a></li>
-              </ul>
-            </li>
-            <li class="about"><a href="#"></a>About</li>
-          </ul>
+
+          <div class="aboutlink" onclick="location.href='about.html'">About</div>
+          <div class="nav-item dropdown">
+            <div class="nav-link dropdown-toggle langlink" href="#" id="navbardrop" data-toggle="dropdown">Languages</div>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="homelink" onclick="location.href='index.html'">Home</div>
         </div>
       </div>
     </nav>
@@ -113,35 +113,150 @@
 
         </div>
         <div class="col-sm-6">
-        <div class="card onecard">
-          <div class="card-body">
-            <table>
-              <tr>
-                <td>
-                  <img onclick="location.href='https://www.youtube.com/watch?v=yMclPkD4sQg&list=PLS1QulWo1RIZc4GM_E04HCPEd_xpcaQgg'" src="images/one.png" alt="" style="width:200px;height:100px;">
-                </td>
-                <td>
-                  <span class="card-text one" onclick="location.href='https://www.youtube.com/watch?v=yMclPkD4sQg&list=PLS1QulWo1RIZc4GM_E04HCPEd_xpcaQgg'">
-                    PHP Tutorial for Beginners 1 # Getting Started and Introduction to PHP (For Absolute Beginners).
-                  </span>
-                  <span id="btn" class="playnow">Play Now!</span>
-              </td>
-            </tr>
-            </table>
+          <div class="col-sm-12">
+            <div class="card onecard">
+              <div class="card-body">
+                <table>
+                  <tr>
+                    <td>
+                      <img onclick="location.href='https://www.youtube.com/watch?v=yMclPkD4sQg&list=PLS1QulWo1RIZc4GM_E04HCPEd_xpcaQgg'" src="images/one.png" alt="" style="width:200px;height:100px;">
+                    </td>
+                    <td>
+                      <span class="card-text one" onclick="location.href='https://www.youtube.com/watch?v=yMclPkD4sQg&list=PLS1QulWo1RIZc4GM_E04HCPEd_xpcaQgg'">
+                        PHP Tutorial for Beginners 1 # Getting Started and Introduction to PHP (For Absolute Beginners)
+                      </span><br><br>
+                      <span id="btn1" class="playnow" onclick="btn1()">Play video!</span>
+                  </td>
+                </tr>
+                </table>
+              </div>
+            </div>
           </div>
+
+
+          <div class="col-sm-12">
+            <div class="card twocard">
+              <div class="card-body">
+                <table>
+                  <tr>
+                    <td>
+                      <img onclick="location.href='https://www.youtube.com/watch?v=aXiD4TnxsJk&list=PL7F2803F8E328030C'" src="images/two.png" alt="" style="width:200px;height:100px;">
+                    </td>
+                    <td>
+                      <span class="card-text one" onclick="location.href='https://www.youtube.com/watch?v=aXiD4TnxsJk&list=PL7F2803F8E328030C'">
+                        Learn PHP from Scratch
+                      </span><br><br>
+                      <span id="btn2" class="playnow" onclick="btn2()">Play video!</span>
+                  </td>
+                </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="card threecard">
+              <div class="card-body">
+                <table>
+                  <tr>
+                    <td>
+                      <img onclick="location.href='https://www.youtube.com/watch?v=ipp4WPDwwvk&list=PLfdtiltiRHWF0RicJb20da8nECQ1jFvla'" src="images/three.png" alt="" style="width:200px;height:100px;">
+                    </td>
+                    <td>
+                      <span class="card-text one" onclick="location.href='https://www.youtube.com/watch?v=ipp4WPDwwvk&list=PLfdtiltiRHWF0RicJb20da8nECQ1jFvla'">
+                        PHP Object Oriented Programming (OOP)
+                      </span><br><br>
+                      <span id="btn3" class="playnow" onclick="btn3()">Play video!</span>
+                  </td>
+                </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="card fourcard">
+              <div class="card-body">
+                <table>
+                  <tr>
+                    <td>
+                      <img onclick="location.href='https://www.youtube.com/watch?v=DG0C3Tntl1M'" src="images/four.png" alt="" style="width:200px;height:100px;">
+                    </td>
+                    <td>
+                      <span class="card-text one" onclick="location.href='https://www.youtube.com/watch?v=DG0C3Tntl1M'">
+                        PHP Tutorials | PHP For Beginners
+                      </span><br><br>
+                      <span id="btn4" class="playnow" onclick="btn4()">Play video!</span>
+                  </td>
+                </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="card fivecard">
+              <div class="card-body">
+                <table>
+                  <tr>
+                    <td>
+                      <img onclick="location.href='https://www.youtube.com/watch?v=yMclPkD4sQg&list=PLS1QulWo1RIZc4GM_E04HCPEd_xpcaQgg'" src="images/five.png" alt="" style="width:200px;height:100px;">
+                    </td>
+                    <td>
+                      <span class="card-text one" onclick="location.href='https://www.youtube.com/watch?v=yMclPkD4sQg&list=PLS1QulWo1RIZc4GM_E04HCPEd_xpcaQgg'">
+                        PHP tutorial | Learn PHP programming.
+                      </span><br><br>
+                      <span id="btn5" class="playnow" onclick="btn5()">Play video!</span>
+                  </td>
+                </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+
         </div>
-        </div>
+      </div>
+    </div>
+    <div id="darkone" class="darkshadow">
+      <div id="mycontent" class="content">
+        <p id="close" class="close">&times</p><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yMclPkD4sQg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
 
-    <div id="dark" class="darkshadow">
+    <div id="darktwo" class="darkshadow">
       <div id="mycontent" class="content">
-        <iframe src="https://www.youtube.com/watch?v=yMclPkD4sQg&list=PLS1QulWo1RIZc4GM_E04HCPEd_xpcaQgg" width="300px" height="300px"></iframe>
+        <p id="close" class="close2">&times</p><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aXiD4TnxsJk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
+
+    <div id="darkthree" class="darkshadow">
+      <div id="mycontent" class="content">
+        <p id="close" class="close3">&times</p><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ipp4WPDwwvk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="darkfour" class="darkshadow">
+      <div id="mycontent" class="content">
+        <p id="close" class="close4">&times</p><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DG0C3Tntl1M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="darkfive" class="darkshadow">
+      <div id="mycontent" class="content">
+        <p id="close" class="close5">&times</p><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qVU3V0A05k8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
 
     <!-- Start of footer -->
-        <!-- <footer class="font-small foot">
+        <footer class="font-small foot">
           <div class="container">
 
             <div class="row">
@@ -169,6 +284,6 @@
              <a href="http://Arnoldhenry.github.io/linkd">Linkd</a>
           </div>
 
-        </footer> -->
+        </footer>
   </body>
 </html>
