@@ -261,13 +261,19 @@ nav{
   color:#FFFFFF;
   padding: 1.4%;
   border-radius: 50%;
+  margin-right: 5%;
 
+}
+.slack_ic{
+  color:#FFFFFF;
+  padding: 1.4%;
+  border-radius: 50%;
 }
 .Copyright{
   vertical-align: text-bottom;
   background-color: #46ACF5;
   width: 100%;
-  padding: 0.6%;
+  padding: 1%;
   color: #EEF7FD;
 }
 a{

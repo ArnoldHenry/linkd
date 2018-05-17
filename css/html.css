@@ -1,0 +1,92 @@
+.logo{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+nav li {
+  display: inline-block;
+  margin-left:50px;
+  font-size: 30px;
+}
+nav li a{
+  color: white;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+.conntainer-fluid{
+  padding-left:0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.jumbotron{
+  background: #000066;
+  color:aqua;
+  font-size: 20px;
+  text-align: center;
+}
+.jumbotron h1{
+  color: black;
+  font-size: 60px;
+  font-family: 'Bree Serif';
+}
+.jumbotron h1:hover{
+  color:white;
+}
+ h2{
+  font-family: 'Permanent Marker';
+  font-size: 40px;
+}
+.navbar{
+  background:#000080;
+}
+footer{
+  background:#000080;
+
+
+}
+footer h3{
+  color:#8c8c8c;
+}
+footer p{
+  color:white;
+  text-align: center;
+}
+footer li{
+  color:#66ffff;
+}
+ol li a {
+  font-size: 30px;
+  color: #339CFF;
+}
+ol li{
+    font-size: 30px;
+}
+ol  p{
+  font-size:20px;
+  line-height: 45px;
+
+}
+footer li {
+  display: inline-block;
+  margin-right: 100px;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  }
+footer ul{
+  text-align: center;
+  width:100%;
+  margin-top: 5%;
+}
+footer li a{
+  color:white;
+}
+.Copyright{
+  color: white;
+  background-color: #1C1C81;
+}
