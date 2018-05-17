@@ -45,7 +45,7 @@ ul {
 }
 footer{
   background:#000080;
-  
+
 
 }
 footer h3{
@@ -58,9 +58,12 @@ footer p{
 footer li{
   color:#66ffff;
 }
-ol li {
+ol li a {
   font-size: 30px;
   color: #339CFF;
+}
+ol li{
+    font-size: 30px;
 }
 ol  p{
   font-size:20px;
