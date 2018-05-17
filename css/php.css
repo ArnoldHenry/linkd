@@ -5,6 +5,27 @@ nav{
   width: 100%;
   /* opacity: 0.7; */
 }
+.icon-bar{
+  background-color: #FFFFFF;
+}
+li{
+  text-decoration: none;
+}
+.collapse li {
+  display: inline-block;
+  float: right;
+}
+.dropdown li {
+  display: block;
+}
+.dropdown-item{
+  display: block;
+  padding: 1%;
+  text-align: center;
+}
+.dropdown-menu{
+  float: right;
+}
 .aboutlink{
   font-family: 'Quicksand';
   font-size: 2em;
