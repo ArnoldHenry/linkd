@@ -7,6 +7,7 @@
     <link  href="css/bootstrap4.css" rel="stylesheet" type="text/css">
     <link  href="css/html.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
       <div class="container-fluid">
@@ -49,7 +50,15 @@
                           <p>MDN Documentation is simply divided into the Guides and Assesment sections. The guide section provides beginners with
                           informaton on HTML elements and attributes,after which you can assess your skills with provided exercises.
                         </p>
-                    </ol>                  
+                    </ol>
+                    <div class="comments">
+                      <form id="comments">
+                         <label for="new-entry">Add your comment</label>
+                         <input type="text" class="form-control" id="theirComments" placeholder="Add a comment!">
+                         <button type="submit" class="btn">Add</button>
+                       </form>
+                        <ol id="displayedcomments">  </ol>
+                     </div>
               </div>
               <div class="col-md-6 col-xs-6">
                 <h2> Video Tutorials </h2>
@@ -84,5 +93,7 @@
              <a href="https://github.com/ArnoldHenry/linkd.git">Linkd</a>
           </div>
         </footer>
+        <script src="js/html.js"></script>
+        <script src="js/html.js"></script>
       </body>
   </html>
