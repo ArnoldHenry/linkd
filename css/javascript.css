@@ -10,6 +10,12 @@ h1{
   font-style: oblique;
 }
 
+.well{
+  text-align: center;
+  color: #eff1f4;
+  
+}
+
 img{
 width: 130px;
 height:130px;
@@ -54,43 +60,13 @@ li a:hover {
 
 
 .jumbotron{
-  width: 552px;
-}
-.footer img {
-  height: 300px;
-  width: 1351px;
-  -webkit-filter: grayscale(95%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(95%);
-}
-
-}
-.image1 img{
-  width: 200px;
-  height: 120px;
-}
-
-.image2 img{
-  width: 200px;
-  height: 120px;
+  width: 522px;
 }
 
 
-.image3 img{
-  width: 200px;
-  height: 120px;
-}
 
 
-.image4 img{
-  width: 200px;
-  height: 120px;
-}
 
-
-.image5 img{
-  width: 200px;
-  height: 120px;
-}
 body{
   background-color: #9ca09b;
 }
@@ -165,15 +141,19 @@ body{
   font-size: 24px;
 }
 
-.page-footer{
+.footer{
   background-color: #333;
   padding-top: 10px;
   color: white;
 }
 .footer-copyright{
   color:white;
+
 }
-.social img{
-  width:30px;
-  height:30px;
+
+
+.row i{
+align-items: center;
+width: 30px;
+height: 30px;
 }
