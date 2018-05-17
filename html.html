@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Permanent+Marker" rel="stylesheet">
     <link  href="css/bootstrap4.css" rel="stylesheet" type="text/css">
     <link  href="css/html.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
       <div class="container-fluid">
@@ -14,7 +16,6 @@
               <a class="navbar-brand" href="index.html"><img  src="images/ld.png" alt="logo" class="logo"></a>
               <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
                 <li><a href="Javascript.html">JavaScript</a></li>
                 <li><a href="php.html">PHP</a></li>
                 <li><a href="css.html">CSS</a></li>
@@ -50,7 +51,14 @@
                           informaton on HTML elements and attributes,after which you can assess your skills with provided exercises.
                         </p>
                     </ol>
-
+                    <div class="comments">
+                      <form id="comments">
+                         <label for="new-entry">Add your comment</label>
+                         <input type="text" class="form-control" id="theirComments" placeholder="Add a comment!">
+                         <button type="submit" class="btn">Add</button>
+                       </form>
+                        <ol id="displayedcomments">  </ol>
+                     </div>
               </div>
               <div class="col-md-6 col-xs-6">
                 <h2> Video Tutorials </h2>
@@ -70,30 +78,22 @@
             </div>
         </div>
         <footer class="page-footer font-small unique-color-dark pt-0">
-            <div class="container mt-5 mb-4 text-center text-md-left">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-                        <h3 class="text-uppercase font-weight-bold">
-                            <strong>LINKD</strong>
-                        </h3>
-                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p>Get links to websites that provide information on coding using basic HTML.</p>
-                    </div>
-                    <div class="col-md-4 col-lg-8 col-xl-3">
-                        <h3 class="text-uppercase font-weight-bold">
-                            <strong>Contact Us</strong>
-                        </h3>
-                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p>Nairobi, Kenya</p>
-                          <ul>
-                            <li>masakhweflosh@gmail.com</li>
-                            <li>jkkimani77@gmail.com</li>
-                            <li>arnoldomwoyo@gmail.com</li>
-                            <li>mungaiwaituika@gmail.com</li>
-                          </ul>
-                    </div>
-                </div>
+          <div class="container">
+            <div class="row">
+                <ul>
+                  <li ><a href="https://github.com/ArnoldHenry/linkd.git"><i class="fa fa-github"></i></a></li>
+                  <li><a href="mailto:masakhweflosh@gmail.com"><i class="fa fa-envelope"></a></i> </li>
+                  <li><a href="https://twitter.com/saisi_arnold?ref_src=twsrc%5Etfw"><i class="fa fa-twitter"></a></i></li>
+                  <li><a href="https://moringaschool.slack.com/messages/DA6KEMHPA/convo/GA5TEACMC-1524464380.000003/"><i class="fa fa-slack"></a></i></li>
+                </ul>
             </div>
+          </div>
+          <div class="Copyright py-3 text-center">
+             © 2018 Copyright
+             <a href="https://github.com/ArnoldHenry/linkd.git">Linkd</a>
+          </div>
         </footer>
+        <script src="js/html.js"></script>
+        <script src="js/html.js"></script>
       </body>
   </html>
